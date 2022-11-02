@@ -22,7 +22,7 @@ export const NETWORKS: Record<string, Network> = {
     explorerUrl: '',
     explorerApiUrl: '',
     emoji: '⚠',
-    chainId: '',
+    chainId: '5777',
   }
   ropsten: {
     title: 'Ropsten Testnet',
