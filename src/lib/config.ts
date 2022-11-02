@@ -23,7 +23,7 @@ export const NETWORKS: Record<string, Network> = {
     explorerApiUrl: '',
     emoji: '⚠',
     chainId: '5777',
-  }
+  },
   ropsten: {
     title: 'Ropsten Testnet',
     rpcUrl: 'https://ropsten.infura.io/v3/%INFURA_API_KEY%',
