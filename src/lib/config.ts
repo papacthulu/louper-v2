@@ -16,6 +16,14 @@ export const NETWORKS: Record<string, Network> = {
     emoji: '🟢',
     chainId: '1',
   },
+  localhost: {
+    title: 'localhost',
+    rpcUrl: 'http://127.0.0.1:8545',
+    explorerUrl: '',
+    explorerApiUrl: '',
+    emoji: '⚠',
+    chainId: '',
+  }
   ropsten: {
     title: 'Ropsten Testnet',
     rpcUrl: 'https://ropsten.infura.io/v3/%INFURA_API_KEY%',
